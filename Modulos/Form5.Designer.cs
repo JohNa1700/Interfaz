@@ -42,7 +42,7 @@
             // 
             // dateTimePicker1
             // 
-            dateTimePicker1.Location = new Point(307, 92);
+            dateTimePicker1.Location = new Point(37, 95);
             dateTimePicker1.Name = "dateTimePicker1";
             dateTimePicker1.Size = new Size(200, 23);
             dateTimePicker1.TabIndex = 6;
@@ -50,7 +50,7 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(307, 74);
+            label1.Location = new Point(37, 77);
             label1.Name = "label1";
             label1.Size = new Size(97, 15);
             label1.TabIndex = 7;
@@ -60,7 +60,7 @@
             // 
             comboBox1.FormattingEnabled = true;
             comboBox1.Items.AddRange(new object[] { "Profesional 1", "Profesional 2", "Profesional 3", "Profesional 4", "Profesional 5", "\t" });
-            comboBox1.Location = new Point(308, 177);
+            comboBox1.Location = new Point(38, 180);
             comboBox1.Name = "comboBox1";
             comboBox1.Size = new Size(121, 23);
             comboBox1.TabIndex = 8;
@@ -69,7 +69,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(308, 159);
+            label2.Location = new Point(38, 162);
             label2.Name = "label2";
             label2.Size = new Size(83, 15);
             label2.TabIndex = 9;
@@ -78,7 +78,7 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(308, 241);
+            label3.Location = new Point(38, 244);
             label3.Name = "label3";
             label3.Size = new Size(33, 15);
             label3.TabIndex = 10;
@@ -88,7 +88,7 @@
             // 
             comboBox2.FormattingEnabled = true;
             comboBox2.Items.AddRange(new object[] { "Sede 1", "Sede 2", "Sede 3", "Sede 4", "Sede 5" });
-            comboBox2.Location = new Point(308, 259);
+            comboBox2.Location = new Point(38, 262);
             comboBox2.Name = "comboBox2";
             comboBox2.Size = new Size(121, 23);
             comboBox2.TabIndex = 11;
@@ -97,7 +97,7 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(308, 332);
+            label4.Location = new Point(38, 335);
             label4.Name = "label4";
             label4.Size = new Size(50, 15);
             label4.TabIndex = 12;
@@ -107,7 +107,7 @@
             // 
             comboBox3.FormattingEnabled = true;
             comboBox3.Items.AddRange(new object[] { "Ciudad 1", "Ciudad 2", "Ciudad 3", "Ciudad 4", "Ciudad 5" });
-            comboBox3.Location = new Point(308, 350);
+            comboBox3.Location = new Point(38, 353);
             comboBox3.Name = "comboBox3";
             comboBox3.Size = new Size(121, 23);
             comboBox3.TabIndex = 13;
@@ -127,6 +127,7 @@
             // button2
             // 
             button2.BackColor = SystemColors.ActiveCaption;
+            button2.BackgroundImage = Properties.Resources.Back;
             button2.Location = new Point(720, 92);
             button2.Name = "button2";
             button2.Size = new Size(70, 23);
@@ -139,6 +140,8 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackgroundImage = Properties.Resources.Back1;
+            BackgroundImageLayout = ImageLayout.Zoom;
             ClientSize = new Size(864, 525);
             Controls.Add(button2);
             Controls.Add(button1);
@@ -150,6 +153,7 @@
             Controls.Add(comboBox1);
             Controls.Add(label1);
             Controls.Add(dateTimePicker1);
+            DoubleBuffered = true;
             Name = "Form5";
             Text = "ASIGNAR CITA";
             ResumeLayout(false);

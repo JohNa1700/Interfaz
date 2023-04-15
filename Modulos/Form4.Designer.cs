@@ -40,7 +40,7 @@
             // textBox1
             // 
             textBox1.BackColor = SystemColors.InactiveCaption;
-            textBox1.Location = new Point(408, 84);
+            textBox1.Location = new Point(407, 40);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(91, 23);
             textBox1.TabIndex = 0;
@@ -64,7 +64,7 @@
             // button2
             // 
             button2.BackColor = SystemColors.ActiveCaption;
-            button2.Location = new Point(104, 193);
+            button2.Location = new Point(35, 104);
             button2.Name = "button2";
             button2.Size = new Size(132, 23);
             button2.TabIndex = 6;
@@ -75,7 +75,7 @@
             // button3
             // 
             button3.BackColor = SystemColors.ActiveCaption;
-            button3.Location = new Point(303, 193);
+            button3.Location = new Point(35, 175);
             button3.Name = "button3";
             button3.Size = new Size(119, 23);
             button3.TabIndex = 7;
@@ -86,7 +86,7 @@
             // button4
             // 
             button4.BackColor = SystemColors.ActiveCaption;
-            button4.Location = new Point(510, 193);
+            button4.Location = new Point(35, 240);
             button4.Name = "button4";
             button4.Size = new Size(75, 23);
             button4.TabIndex = 8;
@@ -97,7 +97,7 @@
             // button5
             // 
             button5.BackColor = SystemColors.ActiveCaption;
-            button5.Location = new Point(665, 193);
+            button5.Location = new Point(35, 317);
             button5.Name = "button5";
             button5.Size = new Size(93, 23);
             button5.TabIndex = 9;
@@ -109,6 +109,8 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackgroundImage = Properties.Resources.Back1;
+            BackgroundImageLayout = ImageLayout.Zoom;
             ClientSize = new Size(891, 528);
             Controls.Add(button5);
             Controls.Add(button4);
@@ -116,6 +118,7 @@
             Controls.Add(button2);
             Controls.Add(button1);
             Controls.Add(textBox1);
+            DoubleBuffered = true;
             Name = "Form4";
             Text = "Form4";
             ResumeLayout(false);
