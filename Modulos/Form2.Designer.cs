@@ -28,117 +28,117 @@
         /// </summary>
         private void InitializeComponent()
         {
-            label1 = new Label();
-            listBox1 = new ListBox();
-            label2 = new Label();
-            label3 = new Label();
-            label4 = new Label();
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
-            button1 = new Button();
-            label5 = new Label();
-            textBox3 = new TextBox();
-            button2 = new Button();
+            labelTitulo = new Label();
+            listRequisitos = new ListBox();
+            labelTitulo2 = new Label();
+            labelContra1 = new Label();
+            labelContra2 = new Label();
+            textBoxContra1 = new TextBox();
+            textBoxContra2 = new TextBox();
+            butRestablecer = new Button();
+            labelCorreo = new Label();
+            textBoxCorreo = new TextBox();
+            butInicio = new Button();
             SuspendLayout();
             // 
-            // label1
+            // labelTitulo
             // 
-            label1.AutoSize = true;
-            label1.Location = new Point(22, 35);
-            label1.Name = "label1";
-            label1.Size = new Size(144, 15);
-            label1.TabIndex = 0;
-            label1.Text = "OLVIDO SU CONTRASEÑA";
+            labelTitulo.AutoSize = true;
+            labelTitulo.Location = new Point(22, 35);
+            labelTitulo.Name = "labelTitulo";
+            labelTitulo.Size = new Size(144, 15);
+            labelTitulo.TabIndex = 0;
+            labelTitulo.Text = "OLVIDO SU CONTRASEÑA";
             // 
-            // listBox1
+            // listRequisitos
             // 
-            listBox1.BackColor = SystemColors.Window;
-            listBox1.BorderStyle = BorderStyle.None;
-            listBox1.FormattingEnabled = true;
-            listBox1.ItemHeight = 15;
-            listBox1.Items.AddRange(new object[] { "- Contener minimo 8 ", "   caracteres", "- Contener una letra ", "   mayuscula y una minuscula", "- Contener un caracter espcial", "- No debe contener ", "   numero de documento", "- No debe contener ", "   fecha de cumpleaños" });
-            listBox1.Location = new Point(22, 101);
-            listBox1.Name = "listBox1";
-            listBox1.Size = new Size(173, 150);
-            listBox1.TabIndex = 1;
+            listRequisitos.BackColor = SystemColors.Window;
+            listRequisitos.BorderStyle = BorderStyle.None;
+            listRequisitos.FormattingEnabled = true;
+            listRequisitos.ItemHeight = 15;
+            listRequisitos.Items.AddRange(new object[] { "- Contener minimo 8 ", "   caracteres", "- Contener una letra ", "   mayuscula y una minuscula", "- Contener un caracter espcial", "- No debe contener ", "   numero de documento", "- No debe contener ", "   fecha de cumpleaños" });
+            listRequisitos.Location = new Point(22, 101);
+            listRequisitos.Name = "listRequisitos";
+            listRequisitos.Size = new Size(173, 150);
+            listRequisitos.TabIndex = 1;
             // 
-            // label2
+            // labelTitulo2
             // 
-            label2.AutoSize = true;
-            label2.Location = new Point(2, 68);
-            label2.Name = "label2";
-            label2.Size = new Size(240, 15);
-            label2.TabIndex = 2;
-            label2.Text = "PARA RESTABLECER SU CONTRASEÑA DEBE:";
+            labelTitulo2.AutoSize = true;
+            labelTitulo2.Location = new Point(2, 68);
+            labelTitulo2.Name = "labelTitulo2";
+            labelTitulo2.Size = new Size(240, 15);
+            labelTitulo2.TabIndex = 2;
+            labelTitulo2.Text = "PARA RESTABLECER SU CONTRASEÑA DEBE:";
             // 
-            // label3
+            // labelContra1
             // 
-            label3.AutoSize = true;
-            label3.Location = new Point(22, 276);
-            label3.Name = "label3";
-            label3.Size = new Size(123, 15);
-            label3.TabIndex = 3;
-            label3.Text = "NUEVA CONTRASEÑA";
+            labelContra1.AutoSize = true;
+            labelContra1.Location = new Point(22, 276);
+            labelContra1.Name = "labelContra1";
+            labelContra1.Size = new Size(123, 15);
+            labelContra1.TabIndex = 3;
+            labelContra1.Text = "NUEVA CONTRASEÑA";
             // 
-            // label4
+            // labelContra2
             // 
-            label4.AutoSize = true;
-            label4.Location = new Point(22, 331);
-            label4.Name = "label4";
-            label4.Size = new Size(162, 15);
-            label4.TabIndex = 4;
-            label4.Text = "CONFIRME LA CONTRASEÑA";
+            labelContra2.AutoSize = true;
+            labelContra2.Location = new Point(22, 331);
+            labelContra2.Name = "labelContra2";
+            labelContra2.Size = new Size(162, 15);
+            labelContra2.TabIndex = 4;
+            labelContra2.Text = "CONFIRME LA CONTRASEÑA";
             // 
-            // textBox1
+            // textBoxContra1
             // 
-            textBox1.Location = new Point(22, 294);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(123, 23);
-            textBox1.TabIndex = 5;
+            textBoxContra1.Location = new Point(22, 294);
+            textBoxContra1.Name = "textBoxContra1";
+            textBoxContra1.Size = new Size(123, 23);
+            textBoxContra1.TabIndex = 5;
             // 
-            // textBox2
+            // textBoxContra2
             // 
-            textBox2.Location = new Point(22, 349);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(123, 23);
-            textBox2.TabIndex = 6;
+            textBoxContra2.Location = new Point(22, 349);
+            textBoxContra2.Name = "textBoxContra2";
+            textBoxContra2.Size = new Size(123, 23);
+            textBoxContra2.TabIndex = 6;
             // 
-            // button1
+            // butRestablecer
             // 
-            button1.BackColor = SystemColors.InactiveCaption;
-            button1.Location = new Point(32, 467);
-            button1.Name = "button1";
-            button1.Size = new Size(102, 23);
-            button1.TabIndex = 7;
-            button1.Text = "RESTABLECER";
-            button1.UseVisualStyleBackColor = false;
+            butRestablecer.BackColor = SystemColors.InactiveCaption;
+            butRestablecer.Location = new Point(32, 467);
+            butRestablecer.Name = "butRestablecer";
+            butRestablecer.Size = new Size(102, 23);
+            butRestablecer.TabIndex = 7;
+            butRestablecer.Text = "RESTABLECER";
+            butRestablecer.UseVisualStyleBackColor = false;
             // 
-            // label5
+            // labelCorreo
             // 
-            label5.AutoSize = true;
-            label5.Location = new Point(22, 399);
-            label5.Name = "label5";
-            label5.Size = new Size(212, 15);
-            label5.TabIndex = 8;
-            label5.Text = "CONFIRME SU CORREO ELECTRONICO";
+            labelCorreo.AutoSize = true;
+            labelCorreo.Location = new Point(22, 399);
+            labelCorreo.Name = "labelCorreo";
+            labelCorreo.Size = new Size(212, 15);
+            labelCorreo.TabIndex = 8;
+            labelCorreo.Text = "CONFIRME SU CORREO ELECTRONICO";
             // 
-            // textBox3
+            // textBoxCorreo
             // 
-            textBox3.Location = new Point(22, 417);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(123, 23);
-            textBox3.TabIndex = 9;
+            textBoxCorreo.Location = new Point(22, 417);
+            textBoxCorreo.Name = "textBoxCorreo";
+            textBoxCorreo.Size = new Size(123, 23);
+            textBoxCorreo.TabIndex = 9;
             // 
-            // button2
+            // butInicio
             // 
-            button2.BackColor = SystemColors.InactiveCaption;
-            button2.Location = new Point(750, 30);
-            button2.Name = "button2";
-            button2.Size = new Size(75, 23);
-            button2.TabIndex = 10;
-            button2.Text = "INICIO";
-            button2.UseVisualStyleBackColor = false;
-            button2.Click += button2_Click;
+            butInicio.BackColor = SystemColors.InactiveCaption;
+            butInicio.Location = new Point(750, 30);
+            butInicio.Name = "butInicio";
+            butInicio.Size = new Size(75, 23);
+            butInicio.TabIndex = 10;
+            butInicio.Text = "INICIO";
+            butInicio.UseVisualStyleBackColor = false;
+            butInicio.Click += button2_Click;
             // 
             // Form2
             // 
@@ -148,17 +148,17 @@
             BackgroundImage = Properties.Resources.Back1;
             BackgroundImageLayout = ImageLayout.Zoom;
             ClientSize = new Size(880, 526);
-            Controls.Add(button2);
-            Controls.Add(textBox3);
-            Controls.Add(label5);
-            Controls.Add(button1);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
-            Controls.Add(label4);
-            Controls.Add(label3);
-            Controls.Add(label2);
-            Controls.Add(listBox1);
-            Controls.Add(label1);
+            Controls.Add(butInicio);
+            Controls.Add(textBoxCorreo);
+            Controls.Add(labelCorreo);
+            Controls.Add(butRestablecer);
+            Controls.Add(textBoxContra2);
+            Controls.Add(textBoxContra1);
+            Controls.Add(labelContra2);
+            Controls.Add(labelContra1);
+            Controls.Add(labelTitulo2);
+            Controls.Add(listRequisitos);
+            Controls.Add(labelTitulo);
             DoubleBuffered = true;
             Name = "Form2";
             Text = "Form2";
@@ -168,16 +168,16 @@
 
         #endregion
 
-        private Label label1;
-        private ListBox listBox1;
-        private Label label2;
-        private Label label3;
-        private Label label4;
-        private TextBox textBox1;
-        private TextBox textBox2;
-        private Button button1;
-        private Label label5;
-        private TextBox textBox3;
-        private Button button2;
+        private Label labelTitulo;
+        private ListBox listRequisitos;
+        private Label labelTitulo2;
+        private Label labelContra1;
+        private Label labelContra2;
+        private TextBox textBoxContra1;
+        private TextBox textBoxContra2;
+        private Button butRestablecer;
+        private Label labelCorreo;
+        private TextBox textBoxCorreo;
+        private Button butInicio;
     }
 }

@@ -28,113 +28,113 @@
         /// </summary>
         private void InitializeComponent()
         {
-            dateTimePicker1 = new DateTimePicker();
-            label1 = new Label();
-            comboBox1 = new ComboBox();
-            label2 = new Label();
-            label3 = new Label();
-            comboBox2 = new ComboBox();
-            label4 = new Label();
-            comboBox3 = new ComboBox();
-            button1 = new Button();
-            button2 = new Button();
+            dateCita = new DateTimePicker();
+            labelFecha = new Label();
+            comboProfesional = new ComboBox();
+            labelProfesional = new Label();
+            labelSede = new Label();
+            comboSede = new ComboBox();
+            labelCiudad = new Label();
+            comboCiudad = new ComboBox();
+            butInicio = new Button();
+            butAtras = new Button();
             SuspendLayout();
             // 
-            // dateTimePicker1
+            // dateCita
             // 
-            dateTimePicker1.Location = new Point(37, 95);
-            dateTimePicker1.Name = "dateTimePicker1";
-            dateTimePicker1.Size = new Size(200, 23);
-            dateTimePicker1.TabIndex = 6;
+            dateCita.Location = new Point(37, 95);
+            dateCita.Name = "dateCita";
+            dateCita.Size = new Size(200, 23);
+            dateCita.TabIndex = 6;
             // 
-            // label1
+            // labelFecha
             // 
-            label1.AutoSize = true;
-            label1.Location = new Point(37, 77);
-            label1.Name = "label1";
-            label1.Size = new Size(97, 15);
-            label1.TabIndex = 7;
-            label1.Text = "FECHA DESEADA";
+            labelFecha.AutoSize = true;
+            labelFecha.Location = new Point(37, 77);
+            labelFecha.Name = "labelFecha";
+            labelFecha.Size = new Size(97, 15);
+            labelFecha.TabIndex = 7;
+            labelFecha.Text = "FECHA DESEADA";
             // 
-            // comboBox1
+            // comboProfesional
             // 
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Items.AddRange(new object[] { "Profesional 1", "Profesional 2", "Profesional 3", "Profesional 4", "Profesional 5", "\t" });
-            comboBox1.Location = new Point(38, 180);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(121, 23);
-            comboBox1.TabIndex = 8;
-            comboBox1.Text = "SELECCIONAR";
+            comboProfesional.FormattingEnabled = true;
+            comboProfesional.Items.AddRange(new object[] { "Profesional 1", "Profesional 2", "Profesional 3", "Profesional 4", "Profesional 5", "\t" });
+            comboProfesional.Location = new Point(38, 180);
+            comboProfesional.Name = "comboProfesional";
+            comboProfesional.Size = new Size(121, 23);
+            comboProfesional.TabIndex = 8;
+            comboProfesional.Text = "SELECCIONAR";
             // 
-            // label2
+            // labelProfesional
             // 
-            label2.AutoSize = true;
-            label2.Location = new Point(38, 162);
-            label2.Name = "label2";
-            label2.Size = new Size(83, 15);
-            label2.TabIndex = 9;
-            label2.Text = "PROFESIONAL";
+            labelProfesional.AutoSize = true;
+            labelProfesional.Location = new Point(38, 162);
+            labelProfesional.Name = "labelProfesional";
+            labelProfesional.Size = new Size(83, 15);
+            labelProfesional.TabIndex = 9;
+            labelProfesional.Text = "PROFESIONAL";
             // 
-            // label3
+            // labelSede
             // 
-            label3.AutoSize = true;
-            label3.Location = new Point(38, 244);
-            label3.Name = "label3";
-            label3.Size = new Size(33, 15);
-            label3.TabIndex = 10;
-            label3.Text = "SEDE";
+            labelSede.AutoSize = true;
+            labelSede.Location = new Point(38, 244);
+            labelSede.Name = "labelSede";
+            labelSede.Size = new Size(33, 15);
+            labelSede.TabIndex = 10;
+            labelSede.Text = "SEDE";
             // 
-            // comboBox2
+            // comboSede
             // 
-            comboBox2.FormattingEnabled = true;
-            comboBox2.Items.AddRange(new object[] { "Sede 1", "Sede 2", "Sede 3", "Sede 4", "Sede 5" });
-            comboBox2.Location = new Point(38, 262);
-            comboBox2.Name = "comboBox2";
-            comboBox2.Size = new Size(121, 23);
-            comboBox2.TabIndex = 11;
-            comboBox2.Text = "SELECCIONAR";
+            comboSede.FormattingEnabled = true;
+            comboSede.Items.AddRange(new object[] { "Sede 1", "Sede 2", "Sede 3", "Sede 4", "Sede 5" });
+            comboSede.Location = new Point(38, 262);
+            comboSede.Name = "comboSede";
+            comboSede.Size = new Size(121, 23);
+            comboSede.TabIndex = 11;
+            comboSede.Text = "SELECCIONAR";
             // 
-            // label4
+            // labelCiudad
             // 
-            label4.AutoSize = true;
-            label4.Location = new Point(38, 335);
-            label4.Name = "label4";
-            label4.Size = new Size(50, 15);
-            label4.TabIndex = 12;
-            label4.Text = "CIUDAD";
+            labelCiudad.AutoSize = true;
+            labelCiudad.Location = new Point(38, 335);
+            labelCiudad.Name = "labelCiudad";
+            labelCiudad.Size = new Size(50, 15);
+            labelCiudad.TabIndex = 12;
+            labelCiudad.Text = "CIUDAD";
             // 
-            // comboBox3
+            // comboCiudad
             // 
-            comboBox3.FormattingEnabled = true;
-            comboBox3.Items.AddRange(new object[] { "Ciudad 1", "Ciudad 2", "Ciudad 3", "Ciudad 4", "Ciudad 5" });
-            comboBox3.Location = new Point(38, 353);
-            comboBox3.Name = "comboBox3";
-            comboBox3.Size = new Size(121, 23);
-            comboBox3.TabIndex = 13;
-            comboBox3.Text = "SELECCIONAR";
+            comboCiudad.FormattingEnabled = true;
+            comboCiudad.Items.AddRange(new object[] { "Ciudad 1", "Ciudad 2", "Ciudad 3", "Ciudad 4", "Ciudad 5" });
+            comboCiudad.Location = new Point(38, 353);
+            comboCiudad.Name = "comboCiudad";
+            comboCiudad.Size = new Size(121, 23);
+            comboCiudad.TabIndex = 13;
+            comboCiudad.Text = "SELECCIONAR";
             // 
-            // button1
+            // butInicio
             // 
-            button1.BackColor = SystemColors.ActiveCaption;
-            button1.Location = new Point(720, 55);
-            button1.Name = "button1";
-            button1.Size = new Size(75, 23);
-            button1.TabIndex = 14;
-            button1.Text = "INICIO";
-            button1.UseVisualStyleBackColor = false;
-            button1.Click += button1_Click;
+            butInicio.BackColor = SystemColors.ActiveCaption;
+            butInicio.Location = new Point(720, 55);
+            butInicio.Name = "butInicio";
+            butInicio.Size = new Size(75, 23);
+            butInicio.TabIndex = 14;
+            butInicio.Text = "INICIO";
+            butInicio.UseVisualStyleBackColor = false;
+            butInicio.Click += button1_Click;
             // 
-            // button2
+            // butAtras
             // 
-            button2.BackColor = SystemColors.ActiveCaption;
-            button2.BackgroundImage = Properties.Resources.Back;
-            button2.Location = new Point(720, 92);
-            button2.Name = "button2";
-            button2.Size = new Size(70, 23);
-            button2.TabIndex = 15;
-            button2.Text = "ATRAS";
-            button2.UseVisualStyleBackColor = false;
-            button2.Click += button2_Click;
+            butAtras.BackColor = SystemColors.ActiveCaption;
+            butAtras.BackgroundImage = Properties.Resources.Back;
+            butAtras.Location = new Point(720, 92);
+            butAtras.Name = "butAtras";
+            butAtras.Size = new Size(70, 23);
+            butAtras.TabIndex = 15;
+            butAtras.Text = "ATRAS";
+            butAtras.UseVisualStyleBackColor = false;
+            butAtras.Click += button2_Click;
             // 
             // Form5
             // 
@@ -143,16 +143,16 @@
             BackgroundImage = Properties.Resources.Back1;
             BackgroundImageLayout = ImageLayout.Zoom;
             ClientSize = new Size(864, 525);
-            Controls.Add(button2);
-            Controls.Add(button1);
-            Controls.Add(comboBox3);
-            Controls.Add(label4);
-            Controls.Add(comboBox2);
-            Controls.Add(label3);
-            Controls.Add(label2);
-            Controls.Add(comboBox1);
-            Controls.Add(label1);
-            Controls.Add(dateTimePicker1);
+            Controls.Add(butAtras);
+            Controls.Add(butInicio);
+            Controls.Add(comboCiudad);
+            Controls.Add(labelCiudad);
+            Controls.Add(comboSede);
+            Controls.Add(labelSede);
+            Controls.Add(labelProfesional);
+            Controls.Add(comboProfesional);
+            Controls.Add(labelFecha);
+            Controls.Add(dateCita);
             DoubleBuffered = true;
             Name = "Form5";
             Text = "ASIGNAR CITA";
@@ -162,15 +162,15 @@
 
         #endregion
 
-        private DateTimePicker dateTimePicker1;
-        private Label label1;
-        private ComboBox comboBox1;
-        private Label label2;
-        private Label label3;
-        private ComboBox comboBox2;
-        private Label label4;
-        private ComboBox comboBox3;
-        private Button button1;
-        private Button button2;
+        private DateTimePicker dateCita;
+        private Label labelFecha;
+        private ComboBox comboProfesional;
+        private Label labelProfesional;
+        private Label labelSede;
+        private ComboBox comboSede;
+        private Label labelCiudad;
+        private ComboBox comboCiudad;
+        private Button butInicio;
+        private Button butAtras;
     }
 }

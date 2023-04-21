@@ -28,82 +28,82 @@
         /// </summary>
         private void InitializeComponent()
         {
-            textBox1 = new TextBox();
+            textBoxTitulo = new TextBox();
             openFileDialog1 = new OpenFileDialog();
-            button1 = new Button();
-            button2 = new Button();
-            button3 = new Button();
-            button4 = new Button();
-            button5 = new Button();
+            buttonInicio = new Button();
+            butMedicinaG = new Button();
+            butOdonto = new Button();
+            butLaboratorio = new Button();
+            butOptom = new Button();
             SuspendLayout();
             // 
-            // textBox1
+            // textBoxTitulo
             // 
-            textBox1.BackColor = SystemColors.InactiveCaption;
-            textBox1.Location = new Point(407, 40);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(91, 23);
-            textBox1.TabIndex = 0;
-            textBox1.Text = "CITAS MEDICAS";
+            textBoxTitulo.BackColor = SystemColors.InactiveCaption;
+            textBoxTitulo.Location = new Point(407, 40);
+            textBoxTitulo.Name = "textBoxTitulo";
+            textBoxTitulo.Size = new Size(91, 23);
+            textBoxTitulo.TabIndex = 0;
+            textBoxTitulo.Text = "CITAS MEDICAS";
             // 
             // openFileDialog1
             // 
             openFileDialog1.FileName = "openFileDialog1";
             // 
-            // button1
+            // buttonInicio
             // 
-            button1.BackColor = SystemColors.ActiveCaption;
-            button1.Location = new Point(769, 40);
-            button1.Name = "button1";
-            button1.Size = new Size(75, 23);
-            button1.TabIndex = 5;
-            button1.Text = "INICIO";
-            button1.UseVisualStyleBackColor = false;
-            button1.Click += button1_Click;
+            buttonInicio.BackColor = SystemColors.ActiveCaption;
+            buttonInicio.Location = new Point(770, 40);
+            buttonInicio.Name = "buttonInicio";
+            buttonInicio.Size = new Size(75, 23);
+            buttonInicio.TabIndex = 5;
+            buttonInicio.Text = "INICIO";
+            buttonInicio.UseVisualStyleBackColor = false;
+            buttonInicio.Click += button1_Click;
             // 
-            // button2
+            // butMedicinaG
             // 
-            button2.BackColor = SystemColors.ActiveCaption;
-            button2.Location = new Point(35, 104);
-            button2.Name = "button2";
-            button2.Size = new Size(132, 23);
-            button2.TabIndex = 6;
-            button2.Text = "MEDICINA GENERAL";
-            button2.UseVisualStyleBackColor = false;
-            button2.Click += button2_Click;
+            butMedicinaG.BackColor = SystemColors.ActiveCaption;
+            butMedicinaG.Location = new Point(35, 104);
+            butMedicinaG.Name = "butMedicinaG";
+            butMedicinaG.Size = new Size(132, 23);
+            butMedicinaG.TabIndex = 6;
+            butMedicinaG.Text = "MEDICINA GENERAL";
+            butMedicinaG.UseVisualStyleBackColor = false;
+            butMedicinaG.Click += button2_Click;
             // 
-            // button3
+            // butOdonto
             // 
-            button3.BackColor = SystemColors.ActiveCaption;
-            button3.Location = new Point(35, 175);
-            button3.Name = "button3";
-            button3.Size = new Size(119, 23);
-            button3.TabIndex = 7;
-            button3.Text = "ODONTOLOGIA";
-            button3.UseVisualStyleBackColor = false;
-            button3.Click += button3_Click;
+            butOdonto.BackColor = SystemColors.ActiveCaption;
+            butOdonto.Location = new Point(35, 175);
+            butOdonto.Name = "butOdonto";
+            butOdonto.Size = new Size(119, 23);
+            butOdonto.TabIndex = 7;
+            butOdonto.Text = "ODONTOLOGIA";
+            butOdonto.UseVisualStyleBackColor = false;
+            butOdonto.Click += button3_Click;
             // 
-            // button4
+            // butLaboratorio
             // 
-            button4.BackColor = SystemColors.ActiveCaption;
-            button4.Location = new Point(35, 240);
-            button4.Name = "button4";
-            button4.Size = new Size(75, 23);
-            button4.TabIndex = 8;
-            button4.Text = "LABORATORIO";
-            button4.UseVisualStyleBackColor = false;
-            button4.Click += button4_Click;
+            butLaboratorio.BackColor = SystemColors.ActiveCaption;
+            butLaboratorio.Location = new Point(35, 240);
+            butLaboratorio.Name = "butLaboratorio";
+            butLaboratorio.Size = new Size(75, 23);
+            butLaboratorio.TabIndex = 8;
+            butLaboratorio.Text = "LABORATORIO";
+            butLaboratorio.UseVisualStyleBackColor = false;
+            butLaboratorio.Click += button4_Click;
             // 
-            // button5
+            // butOptom
             // 
-            button5.BackColor = SystemColors.ActiveCaption;
-            button5.Location = new Point(35, 317);
-            button5.Name = "button5";
-            button5.Size = new Size(93, 23);
-            button5.TabIndex = 9;
-            button5.Text = "OPTOMETRIA";
-            button5.UseVisualStyleBackColor = false;
-            button5.Click += button5_Click;
+            butOptom.BackColor = SystemColors.ActiveCaption;
+            butOptom.Location = new Point(35, 317);
+            butOptom.Name = "butOptom";
+            butOptom.Size = new Size(93, 23);
+            butOptom.TabIndex = 9;
+            butOptom.Text = "OPTOMETRIA";
+            butOptom.UseVisualStyleBackColor = false;
+            butOptom.Click += button5_Click;
             // 
             // Form4
             // 
@@ -112,12 +112,12 @@
             BackgroundImage = Properties.Resources.Back1;
             BackgroundImageLayout = ImageLayout.Zoom;
             ClientSize = new Size(891, 528);
-            Controls.Add(button5);
-            Controls.Add(button4);
-            Controls.Add(button3);
-            Controls.Add(button2);
-            Controls.Add(button1);
-            Controls.Add(textBox1);
+            Controls.Add(butOptom);
+            Controls.Add(butLaboratorio);
+            Controls.Add(butOdonto);
+            Controls.Add(butMedicinaG);
+            Controls.Add(buttonInicio);
+            Controls.Add(textBoxTitulo);
             DoubleBuffered = true;
             Name = "Form4";
             Text = "Form4";
@@ -127,12 +127,12 @@
 
         #endregion
 
-        private TextBox textBox1;
+        private TextBox textBoxTitulo;
         private OpenFileDialog openFileDialog1;
-        private Button button1;
-        private Button button2;
-        private Button button3;
-        private Button button4;
-        private Button button5;
+        private Button buttonInicio;
+        private Button butMedicinaG;
+        private Button butOdonto;
+        private Button butLaboratorio;
+        private Button butOptom;
     }
 }
