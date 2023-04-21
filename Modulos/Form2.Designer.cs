@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
             labelTitulo = new Label();
             listRequisitos = new ListBox();
             labelTitulo2 = new Label();
@@ -44,6 +45,7 @@
             // labelTitulo
             // 
             labelTitulo.AutoSize = true;
+            labelTitulo.BackColor = Color.LightSkyBlue;
             labelTitulo.Location = new Point(22, 35);
             labelTitulo.Name = "labelTitulo";
             labelTitulo.Size = new Size(144, 15);
@@ -52,7 +54,7 @@
             // 
             // listRequisitos
             // 
-            listRequisitos.BackColor = SystemColors.Window;
+            listRequisitos.BackColor = Color.LightSkyBlue;
             listRequisitos.BorderStyle = BorderStyle.None;
             listRequisitos.FormattingEnabled = true;
             listRequisitos.ItemHeight = 15;
@@ -65,6 +67,7 @@
             // labelTitulo2
             // 
             labelTitulo2.AutoSize = true;
+            labelTitulo2.BackColor = Color.LightSkyBlue;
             labelTitulo2.Location = new Point(2, 68);
             labelTitulo2.Name = "labelTitulo2";
             labelTitulo2.Size = new Size(240, 15);
@@ -74,6 +77,7 @@
             // labelContra1
             // 
             labelContra1.AutoSize = true;
+            labelContra1.BackColor = Color.LightSkyBlue;
             labelContra1.Location = new Point(22, 276);
             labelContra1.Name = "labelContra1";
             labelContra1.Size = new Size(123, 15);
@@ -83,6 +87,7 @@
             // labelContra2
             // 
             labelContra2.AutoSize = true;
+            labelContra2.BackColor = Color.LightSkyBlue;
             labelContra2.Location = new Point(22, 331);
             labelContra2.Name = "labelContra2";
             labelContra2.Size = new Size(162, 15);
@@ -91,6 +96,7 @@
             // 
             // textBoxContra1
             // 
+            textBoxContra1.BackColor = Color.Azure;
             textBoxContra1.Location = new Point(22, 294);
             textBoxContra1.Name = "textBoxContra1";
             textBoxContra1.Size = new Size(123, 23);
@@ -98,6 +104,7 @@
             // 
             // textBoxContra2
             // 
+            textBoxContra2.BackColor = Color.Azure;
             textBoxContra2.Location = new Point(22, 349);
             textBoxContra2.Name = "textBoxContra2";
             textBoxContra2.Size = new Size(123, 23);
@@ -116,6 +123,7 @@
             // labelCorreo
             // 
             labelCorreo.AutoSize = true;
+            labelCorreo.BackColor = Color.LightSkyBlue;
             labelCorreo.Location = new Point(22, 399);
             labelCorreo.Name = "labelCorreo";
             labelCorreo.Size = new Size(212, 15);
@@ -124,6 +132,7 @@
             // 
             // textBoxCorreo
             // 
+            textBoxCorreo.BackColor = Color.Azure;
             textBoxCorreo.Location = new Point(22, 417);
             textBoxCorreo.Name = "textBoxCorreo";
             textBoxCorreo.Size = new Size(123, 23);
@@ -145,8 +154,8 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.Window;
-            BackgroundImage = Properties.Resources.Back1;
-            BackgroundImageLayout = ImageLayout.Zoom;
+            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
+            BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(880, 526);
             Controls.Add(butInicio);
             Controls.Add(textBoxCorreo);

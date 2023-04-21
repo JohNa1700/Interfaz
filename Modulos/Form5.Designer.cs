@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form5));
             dateCita = new DateTimePicker();
             labelFecha = new Label();
             comboProfesional = new ComboBox();
@@ -116,7 +117,7 @@
             // butInicio
             // 
             butInicio.BackColor = SystemColors.ActiveCaption;
-            butInicio.Location = new Point(720, 55);
+            butInicio.Location = new Point(760, 38);
             butInicio.Name = "butInicio";
             butInicio.Size = new Size(75, 23);
             butInicio.TabIndex = 14;
@@ -128,7 +129,7 @@
             // 
             butAtras.BackColor = SystemColors.ActiveCaption;
             butAtras.BackgroundImage = Properties.Resources.Back;
-            butAtras.Location = new Point(720, 92);
+            butAtras.Location = new Point(760, 75);
             butAtras.Name = "butAtras";
             butAtras.Size = new Size(70, 23);
             butAtras.TabIndex = 15;
@@ -140,8 +141,8 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackgroundImage = Properties.Resources.Back1;
-            BackgroundImageLayout = ImageLayout.Zoom;
+            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
+            BackgroundImageLayout = ImageLayout.Center;
             ClientSize = new Size(864, 525);
             Controls.Add(butAtras);
             Controls.Add(butInicio);

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form3));
             labelTitulo = new Label();
             comboDocumento = new ComboBox();
             labelDocumento = new Label();
@@ -35,7 +36,6 @@
             textBoxCrearContra = new TextBox();
             labelCrearContra = new Label();
             listRequisitos = new ListBox();
-            label4 = new Label();
             textBoxConfirmarContra = new TextBox();
             ButRegistrarme = new Button();
             butInicio = new Button();
@@ -45,7 +45,7 @@
             // labelTitulo
             // 
             labelTitulo.AutoSize = true;
-            labelTitulo.Location = new Point(78, 66);
+            labelTitulo.Location = new Point(90, 87);
             labelTitulo.Name = "labelTitulo";
             labelTitulo.Size = new Size(68, 15);
             labelTitulo.TabIndex = 0;
@@ -55,7 +55,7 @@
             // 
             comboDocumento.FormattingEnabled = true;
             comboDocumento.Items.AddRange(new object[] { "C.C.", "T.I.", "R.C.", "C.E.", "PAS", "PEP" });
-            comboDocumento.Location = new Point(45, 114);
+            comboDocumento.Location = new Point(58, 130);
             comboDocumento.Name = "comboDocumento";
             comboDocumento.Size = new Size(146, 23);
             comboDocumento.TabIndex = 1;
@@ -64,7 +64,7 @@
             // labelDocumento
             // 
             labelDocumento.AutoSize = true;
-            labelDocumento.Location = new Point(45, 156);
+            labelDocumento.Location = new Point(58, 172);
             labelDocumento.Name = "labelDocumento";
             labelDocumento.Size = new Size(150, 15);
             labelDocumento.TabIndex = 2;
@@ -72,14 +72,14 @@
             // 
             // textBoxDocumento
             // 
-            textBoxDocumento.Location = new Point(45, 174);
+            textBoxDocumento.Location = new Point(58, 190);
             textBoxDocumento.Name = "textBoxDocumento";
             textBoxDocumento.Size = new Size(145, 23);
             textBoxDocumento.TabIndex = 3;
             // 
             // textBoxCrearContra
             // 
-            textBoxCrearContra.Location = new Point(44, 226);
+            textBoxCrearContra.Location = new Point(57, 242);
             textBoxCrearContra.Name = "textBoxCrearContra";
             textBoxCrearContra.Size = new Size(145, 23);
             textBoxCrearContra.TabIndex = 4;
@@ -87,7 +87,7 @@
             // labelCrearContra
             // 
             labelCrearContra.AutoSize = true;
-            labelCrearContra.Location = new Point(44, 208);
+            labelCrearContra.Location = new Point(57, 224);
             labelCrearContra.Name = "labelCrearContra";
             labelCrearContra.Size = new Size(122, 15);
             labelCrearContra.TabIndex = 5;
@@ -100,23 +100,14 @@
             listRequisitos.FormattingEnabled = true;
             listRequisitos.ItemHeight = 15;
             listRequisitos.Items.AddRange(new object[] { "- Minimo 8 caracteres", "- Mayusculas y minusculas", "- Caracter espcial" });
-            listRequisitos.Location = new Point(44, 255);
+            listRequisitos.Location = new Point(57, 271);
             listRequisitos.Name = "listRequisitos";
             listRequisitos.Size = new Size(173, 60);
             listRequisitos.TabIndex = 6;
             // 
-            // label4
-            // 
-            label4.AutoSize = true;
-            label4.Location = new Point(368, 305);
-            label4.Name = "label4";
-            label4.Size = new Size(154, 15);
-            label4.TabIndex = 7;
-            label4.Text = "CONFIRMAR CONTRASEÑA";
-            // 
             // textBoxConfirmarContra
             // 
-            textBoxConfirmarContra.Location = new Point(44, 342);
+            textBoxConfirmarContra.Location = new Point(57, 358);
             textBoxConfirmarContra.Name = "textBoxConfirmarContra";
             textBoxConfirmarContra.Size = new Size(149, 23);
             textBoxConfirmarContra.TabIndex = 8;
@@ -124,7 +115,7 @@
             // ButRegistrarme
             // 
             ButRegistrarme.BackColor = SystemColors.ActiveCaption;
-            ButRegistrarme.Location = new Point(67, 397);
+            ButRegistrarme.Location = new Point(80, 413);
             ButRegistrarme.Name = "ButRegistrarme";
             ButRegistrarme.Size = new Size(99, 23);
             ButRegistrarme.TabIndex = 9;
@@ -145,7 +136,7 @@
             // labelConfirmarContra
             // 
             labelConfirmarContra.AutoSize = true;
-            labelConfirmarContra.Location = new Point(45, 324);
+            labelConfirmarContra.Location = new Point(58, 340);
             labelConfirmarContra.Name = "labelConfirmarContra";
             labelConfirmarContra.Size = new Size(154, 15);
             labelConfirmarContra.TabIndex = 11;
@@ -155,14 +146,13 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackgroundImage = Properties.Resources.Back1;
-            BackgroundImageLayout = ImageLayout.Zoom;
+            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
+            BackgroundImageLayout = ImageLayout.Center;
             ClientSize = new Size(894, 524);
             Controls.Add(labelConfirmarContra);
             Controls.Add(butInicio);
             Controls.Add(ButRegistrarme);
             Controls.Add(textBoxConfirmarContra);
-            Controls.Add(label4);
             Controls.Add(listRequisitos);
             Controls.Add(labelCrearContra);
             Controls.Add(textBoxCrearContra);
@@ -186,7 +176,6 @@
         private TextBox textBoxCrearContra;
         private Label labelCrearContra;
         private ListBox listRequisitos;
-        private Label label4;
         private TextBox textBoxConfirmarContra;
         private Button ButRegistrarme;
         private Button butInicio;

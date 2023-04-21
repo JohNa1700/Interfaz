@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form4));
             textBoxTitulo = new TextBox();
             openFileDialog1 = new OpenFileDialog();
             buttonInicio = new Button();
@@ -109,8 +110,8 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackgroundImage = Properties.Resources.Back1;
-            BackgroundImageLayout = ImageLayout.Zoom;
+            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
+            BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(891, 528);
             Controls.Add(butOptom);
             Controls.Add(butLaboratorio);
